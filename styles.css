@@ -1,0 +1,38 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+#grid-container {
+    width: 800px;
+    height: 800px;
+    border: solid 1px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+button {
+    width: 120px;
+    margin: 40px;
+}
+
+.grid-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 100%;
+}
+
+.grid-block {
+    border: solid 1px rgb(26, 26, 26);
+    width: 100%;
+    background-color: black;
+}
+
+.draw-color {
+    background-color: rgb(39, 160, 201);
+
+}
